@@ -1,0 +1,35 @@
+# Ambiente Virtual
+venv/
+env/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Arquivos de log
+*.log
+
+# Arquivos compilados Python
+*.pyc
+*.pyo
+__pycache__
+
+# Banco de dados SQLite (geralmente usado para desenvolvimento)
+db.sqlite3
+
+# Arquivos de migração do Django
+*/migrations/*
+!*/migrations/__init__.py
+
+# Configurações do Django para deploy (se aplicável)
+*.env
+
+# Arquivos de backup
+*~
+*.bak
+
+# Outras pastas temporárias
+*.swp
+*.swo
