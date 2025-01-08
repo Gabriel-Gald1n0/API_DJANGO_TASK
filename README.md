@@ -82,17 +82,44 @@ Esta é uma API simples de gerenciamento de tarefas construída com Django Rest 
 
 ## Como Usar a API
 
-### 1. **Instalar as dependências**
+### 1. **Clonar o Repositorio**
 
-Clone o repositório e instale as dependências necessárias.
+Clone o repositório
 
 ```bash
 git clone https://github.com/Gabriel-Gald1n0/API_DJANGO_TASK.git
 cd API_DJANGO_TASK
+```
+
+### 2. **Criar e Ativar o Ambiente Virtual**
+
+Para criar o ambiente virtual, navegue até o diretório do seu projeto e execute o seguinte comando:
+
+```bash
+py -m venv venv
+```
+
+Ativar o Ambiente Virtual
+
+No Windows:
+```bash
+.\venv\Scripts\activate
+```
+
+No macOS/Linux:
+```bash
+source venv/bin/activate
+```
+
+### 3. **Instalar as dependências**
+
+Instale as dependências necessárias:
+
+```bash
 pip install -r requirements.txt
 ```
 
-### 2. **Configurar o banco de dados**
+### 4. **Configurar o banco de dados**
 
 Migrate o banco de dados:
 
@@ -104,7 +131,7 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
-### 3. **Criar Superusuário (opcional)**
+### 5. **Criar Superusuário (opcional)**
 
 Se você quiser criar um superusuário para acessar o Django Admin, use o seguinte comando:
 
@@ -112,7 +139,7 @@ Se você quiser criar um superusuário para acessar o Django Admin, use o seguin
 python manage.py createsuperuser
 ```
 
-### 4. **Rodar o servidor**
+### 6. **Rodar o servidor**
 
 Para rodar o servidor localmente, execute:
 
@@ -122,11 +149,11 @@ python manage.py runserver
 
 A API estará disponível em `http://127.0.0.1:8000/`.
 
-### 5. **Autenticação**
+### 7. **Autenticação**
 
 Para autenticar o usuário, faça uma requisição `POST` para `/api/login/` com o nome de usuário e senha. O servidor retornará um token JWT.
 
-### 6. **Realizar Requisições**
+### 8. **Realizar Requisições**
 
 Agora, use o token JWT para fazer requisições autenticadas.
 
