@@ -87,8 +87,8 @@ Esta é uma API simples de gerenciamento de tarefas construída com Django Rest 
 Clone o repositório e instale as dependências necessárias.
 
 ```bash
-git clone https://github.com/seuusuario/seuprojeto.git
-cd seuprojeto
+git clone https://github.com/Gabriel-Gald1n0/API_DJANGO_TASK.git
+cd API_DJANGO_TASK
 pip install -r requirements.txt
 ```
 
